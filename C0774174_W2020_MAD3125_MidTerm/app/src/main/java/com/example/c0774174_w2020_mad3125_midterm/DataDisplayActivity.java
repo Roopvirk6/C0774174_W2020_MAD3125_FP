@@ -35,7 +35,7 @@ public class DataDisplayActivity extends AppCompatActivity {
         setContentView(R.layout.activity_data_display);
         txt_sin = findViewById(R.id.txt_Sin);
         txt_full_Name = findViewById(R.id.txt_fullName);
-        txt_gender = findViewById(R.id.txt_gender);
+       // txt_gender = findViewById(R.id.txt_gender);
         txt_gross_income = findViewById(R.id.txt_grossIncome);
         lbl_RrspContributed = findViewById(R.id.txt_rrspContribution);
         lbl_cpp = findViewById(R.id.txt_Cpp);
@@ -54,7 +54,7 @@ public class DataDisplayActivity extends AppCompatActivity {
 
         txt_sin.setText(" Personal SIN: \t" + customer.getSin_number());
         txt_full_Name.setText(" Full Name: \t" + customer.getFull_name());
-        txt_gender.setText(" Gender: \t" + customer.getGender());
+       // txt_gender.setText(" Gender: \t" + customer.getGender());
         txt_gross_income.setText(" Gross Income: \t" + customer.getGross_income());
         lbl_RrspContributed.setText("RRSP Contributed: \t" + customer.getRrsp_contribution());
         rrsp = customer.getRrsp_contribution();
